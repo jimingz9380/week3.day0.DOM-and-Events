@@ -1,5 +1,9 @@
-let img = document.querySelector("#rengar")
+let img = document.getElementById("rengar")
+img.src = "assets/brush.png";
+
 
 img.onclick = function(){
-    img.src = " assets/rengar.png "
+    img.src = "assets/rengar.png";
+    alert("You've been deleted!")
 }
+
